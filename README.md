@@ -8,6 +8,6 @@
    
 **Manuscripts:** 
 
->[INFOCOM 2019 version]{https://www.dropbox.com/s/nc2kjb2ab7h915b/}
+>[INFOCOM 2019 version](https://www.dropbox.com/s/nc2kjb2ab7h915b/)
 
->[Full version]{https://www.dropbox.com/s/dkx6a4c2vw901pe/}
+>[Full version](https://www.dropbox.com/s/dkx6a4c2vw901pe/)
