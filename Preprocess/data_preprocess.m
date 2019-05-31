@@ -23,7 +23,7 @@ end
 
 %some key parameters
 %interval * second
-interval = 10000;
+interval = 1;
 %number of states 
 num_states = 27;
 

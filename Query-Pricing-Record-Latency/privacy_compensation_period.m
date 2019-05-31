@@ -1,13 +1,10 @@
-function [compensation_bound1, compensation_bound1_ab, phi] = privacy_compensation_t(downstream, upstream1, upstream2, T, variance, ell)
+function [compensation_bound1] = privacy_compensation_period(downstream, upstream1, upstream2, T, variance, ell)
 
 compensation_bound1 =  zeros(1, T);
-compensation_bound1_ab =  zeros(2, T);
 
-% Considering privacy compensation under empty X_M
+% Considering privacy comepnsation under empty X_M
 tmp0 = ell / sqrt(variance / 2);
 xi_empty = tmp0 * T;
-
-%disp(xi_empty)
 
 for i = 1:T
     %markov quilt set
@@ -26,9 +23,7 @@ for i = 1:T
     
     xi = xi0 + phi; 
     
-    [compensation_bound1(i), best_idx] = min(xi(:));
-    [compensation_bound1_ab(2, i), compensation_bound1_ab(1, i)] = ind2sub(size(xi), best_idx);
-    
     % Considering empty X_M
+    [compensation_bound1(i), best_idx] = min(xi(:));
     compensation_bound1(i) = min(compensation_bound1(i), xi_empty);
 end
