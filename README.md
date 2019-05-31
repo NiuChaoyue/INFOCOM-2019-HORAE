@@ -25,6 +25,6 @@
 
 >[INFOCOM 2019 version](https://www.dropbox.com/s/nc2kjb2ab7h915b/)
 
->[Technical Report](https://www.dropbox.com/s/dkx6a4c2vw901pe/)
+>[Technical report](https://www.dropbox.com/s/dkx6a4c2vw901pe/)
 
 >[Slides](https://www.dropbox.com/s/4u6a2x983jutrqz/)
